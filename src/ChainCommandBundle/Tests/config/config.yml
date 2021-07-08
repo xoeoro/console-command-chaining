@@ -1,0 +1,4 @@
+services:
+  App\ChainCommandBundle\ServiceLocator\CommandChainLocator:
+    class: 'App\ChainCommandBundle\ServiceLocator\CommandChainLocator'
+    public: true
